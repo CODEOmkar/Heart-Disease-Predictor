@@ -9,4 +9,4 @@ Heart Disease Predictor:
  * Technology: Python, FastAPI, scikit-learn, Pandas, NumPy, Pickle, React.js, Axios, HTML, CSS, Uvicorn
 
 Minimal UI:
-![Project UI](./testui/src/HAP_UI.png)
+![Project UI](./HAP_UI.png)
