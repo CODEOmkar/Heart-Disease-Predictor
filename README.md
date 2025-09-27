@@ -7,3 +7,6 @@ Heart Disease Predictor:
  * Built a minimal yet effective user interface to interact with the API, enabling real-time predictions and seamless user experience for healthcare applications and academic demonstrations.
 
  * Technology: Python, FastAPI, scikit-learn, Pandas, NumPy, Pickle, React.js, Axios, HTML, CSS, Uvicorn
+
+Minimal UI:
+![Project UI](Heart Disease Predictor/testui/src/HAP_UI.png)
