@@ -11,9 +11,10 @@ body {
   
   .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    justify-content: center;    /* centers horizontally */
+    align-items: flex-start;    /* top-aligns */
+    gap: 2rem;                  /* <-- space between the two divs */
+    padding: 20px;              /* optional overall padding */
   }
   
   .form-box {
@@ -105,3 +106,51 @@ body {
     font-weight: bold;
     color: #FFD700;
   }
+
+  .main-content {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.info-section {
+  background-color: #2A2A2A;
+  padding: 20px;
+  padding-bottom: 62px;
+  padding-left: 40px;
+  padding-right: 180px;
+  border-radius: 8px;
+  color: #ebeaea;
+  max-width: 1000px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.info-section h2 {
+  color: #DC143C;
+  margin-bottom: 10px;
+}
+
+.inner-l li{
+  margin-bottom: 8px;
+  line-height: 0.5;
+}
+.info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-section li {
+  margin-bottom: 8px;
+  line-height: 2.5;
+}
+
+.info-section ul ul {
+  margin-left: 20px;      /* indent nested list */
+  line-height: 1.2;       /* tighter line height for nested items */
+}
+
+.info-section ul ul li {
+  margin-bottom: 5px;     /* optional: less space between nested items */
+  line-height: 1.0;
+}
